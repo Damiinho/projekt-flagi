@@ -11,6 +11,7 @@ function App() {
       <Nav />
       <Main />
       <Footer />
+      <img src="src\img\flags\ae.png" alt="" />
     </div>
   );
 }
