@@ -1,0 +1,28 @@
+[{
+    "name" : "polska",
+    "colors" : ["red", "white"],
+    "img" : "/flags/pl.png",
+    "region" : "europe",
+    "stripes" : "horizontal"
+},
+{
+    "name" : "niemcy",
+    "colors" : ["red", "yellow", "black"],
+    "img" : "/flags/de.png",
+    "region" : "europe",
+    "stripes" : "horizontal"
+},
+{
+    "name" : "argentyna",
+    "colors" : ["blue", "white"],
+    "img" : "/flags/ar.png",
+    "region" : "south-america",
+    "stripes" : "horizontal"
+},
+{
+    "name" : "belgia",
+    "colors" : ["black", "yellow", "red"],
+    "img" : "/flags/be.png",
+    "region" : "europe",
+    "stripes" : "vertical"
+}]

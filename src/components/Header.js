@@ -2,7 +2,7 @@ import React from "react";
 
 class Header extends React.Component {
   render() {
-    return <div>Hej</div>;
+    return <div>Wyszukiwarka flag</div>;
   }
 }
 
