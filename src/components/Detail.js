@@ -1,9 +1,7 @@
 import React from "react";
 
-class Detail extends React.Component {
-  render() {
-    return <div>szczegóły</div>;
-  }
-}
+const Detail = (props) => {
+  return <div>{props.data.name}</div>;
+};
 
 export default Detail;
