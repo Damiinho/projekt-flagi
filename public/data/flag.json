@@ -3,26 +3,30 @@
     "colors" : ["red", "white"],
     "img" : "/flags/pl.png",
     "region" : "europe",
-    "stripes" : "horizontal"
+    "stripes" : "horizontal",
+    "active" : true
 },
 {
     "name" : "niemcy",
     "colors" : ["red", "yellow", "black"],
     "img" : "/flags/de.png",
     "region" : "europe",
-    "stripes" : "horizontal"
+    "stripes" : "horizontal",
+    "active" : true
 },
 {
     "name" : "argentyna",
     "colors" : ["blue", "white"],
     "img" : "/flags/ar.png",
     "region" : "south-america",
-    "stripes" : "horizontal"
+    "stripes" : "horizontal",
+    "active" : true
 },
 {
     "name" : "belgia",
     "colors" : ["black", "yellow", "red"],
     "img" : "/flags/be.png",
     "region" : "europe",
-    "stripes" : "vertical"
+    "stripes" : "vertical",
+    "active" : true
 }]

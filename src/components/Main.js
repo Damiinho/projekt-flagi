@@ -1,6 +1,7 @@
 import React from "react";
 import FullList from "./FullList";
 import Detail from "./Detail";
+import SelectColor from "./SelectColor";
 
 class Main extends React.Component {
   state = {
@@ -11,7 +12,9 @@ class Main extends React.Component {
       img: "",
       region: "",
       stripes: "",
+      active: "",
     },
+    selectedColors: [],
   };
 
   componentDidMount() {
@@ -25,8 +28,6 @@ class Main extends React.Component {
   }
 
   handleSmallOneClick = (item) => {
-    console.log(`hej ${item.name}`);
-
     this.setState({
       itemOnClick: {
         name: item.name,
@@ -34,13 +35,63 @@ class Main extends React.Component {
         img: item.img,
         region: item.region,
         stripes: item.stripes,
+        active: item.active,
       },
     });
+  };
+
+  changeSelectedColor = (item) => {
+    let selectedColors = [...this.state.selectedColors];
+
+    const isSelectedFilter = (el) => el !== item;
+    const findItem = selectedColors.findIndex((el) => el === item);
+
+    if (findItem < 0) {
+      selectedColors = [...this.state.selectedColors].concat(item);
+    } else {
+      selectedColors = selectedColors.filter(isSelectedFilter);
+    }
+
+    let flags = this.filterFullListByColor(selectedColors);
+
+    this.setState({
+      selectedColors,
+      flags,
+    });
+  };
+
+  filterFullListByColor = (selectedColors) => {
+    let flagList = [...this.state.flags];
+    let backtoActive = [];
+
+    backtoActive = flagList.map((el) => {
+      el.active = true;
+      return el;
+    });
+
+    selectedColors.map((color) => {
+      flagList = backtoActive.map((el) => {
+        let findItem = el.colors.findIndex((item) => item === color);
+        if (findItem < 0) {
+          el.active = false;
+        } else if (el.active === true) {
+          el.active = true;
+        }
+        return el;
+      });
+
+      return flagList;
+    });
+    return flagList;
   };
 
   render() {
     return (
       <div>
+        <SelectColor
+          click={this.changeSelectedColor}
+          selected={this.state.selectedColors}
+        />
         <FullList flags={this.state.flags} click={this.handleSmallOneClick} />
         <Detail data={this.state.itemOnClick} />
       </div>

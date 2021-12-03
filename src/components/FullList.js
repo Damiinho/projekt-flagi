@@ -11,6 +11,7 @@ class FullList extends React.Component {
         img={item.img}
         region={item.region}
         stripes={item.stripes}
+        active={item.active}
         click={this.props.click}
       />
     ));
