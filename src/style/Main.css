@@ -1,11 +1,13 @@
 .main {
-    height: 500px;
     background-color: #E8DDB5;
 }
 
 .main-box {
     border-top: 5px solid #5941A9;
     display: flex;
+    min-height: 700px;
+    max-height: 1000px;
+    overflow: hidden;
 }
 
 .main-box div {
@@ -14,4 +16,6 @@
 
 .main-box div.full-list {
     padding: 20px;
+    border-right: 10px solid #5941A9;
+    /* height: 100%; */
 }

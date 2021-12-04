@@ -10,10 +10,14 @@ const Detail = (props) => {
     props.data.region = "Ameryka Północna";
   } else if (props.data.region === "asia") {
     props.data.region = "Azja";
-  } else if (props.data.region === "arfica") {
+  } else if (props.data.region === "africa") {
     props.data.region = "Afryka";
   } else if (props.data.region === "oceania") {
     props.data.region = "Australia/Oceania";
+  } else if (props.data.region === "carraibean") {
+    props.data.region = "Karaiby";
+  } else if (props.data.region === "other") {
+    props.data.region = "Inne";
   }
 
   if (props.data.name) {

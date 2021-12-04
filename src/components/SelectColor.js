@@ -36,6 +36,20 @@ const SelectColor = (props) => {
           setActive("yellow");
         }}
       ></button>
+      <button
+        className="blue"
+        onClick={() => {
+          props.click("blue");
+          setActive("blue");
+        }}
+      ></button>
+      <button
+        className="green"
+        onClick={() => {
+          props.click("green");
+          setActive("green");
+        }}
+      ></button>
       {/* Zaznaczone: {props.selected.join(", ")} */}
     </div>
   );

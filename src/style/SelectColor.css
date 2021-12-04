@@ -30,7 +30,7 @@
 }
 
 button.red {
-    background-color: red;
+    background-color: rgb(221, 27, 27);
 }
 
 button.white {
@@ -42,7 +42,15 @@ button.black {
 }
 
 button.yellow {
-    background-color: yellow;
+    background-color: rgb(230, 230, 66);
+}
+
+button.blue {
+    background-color: rgb(32, 32, 184);
+}
+
+button.green {
+    background-color: rgb(67, 158, 67);
 }
 
 button.active {
