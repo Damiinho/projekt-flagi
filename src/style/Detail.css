@@ -1,0 +1,14 @@
+.detail {
+    border-left: 10px solid #5941A9;
+    height: 379px;
+    padding: 10px 0 0 20px;
+}
+
+.detail p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.detail img {
+    max-height: 200px;
+}

@@ -1,8 +1,9 @@
 import React from "react";
+import "../style/Header.css";
 
 class Header extends React.Component {
   render() {
-    return <div>Wyszukiwarka flag</div>;
+    return <header>Wyszukiwarka flag</header>;
   }
 }
 

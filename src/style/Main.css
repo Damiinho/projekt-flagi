@@ -1,0 +1,17 @@
+.main {
+    height: 500px;
+    background-color: #E8DDB5;
+}
+
+.main-box {
+    border-top: 5px solid #5941A9;
+    display: flex;
+}
+
+.main-box div {
+    width: 50vw;
+}
+
+.main-box div.full-list {
+    padding: 20px;
+}

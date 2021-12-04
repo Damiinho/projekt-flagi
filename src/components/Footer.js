@@ -1,8 +1,9 @@
 import React from "react";
+import "../style/Footer.css";
 
 class Header extends React.Component {
   render() {
-    return <div>stopka</div>;
+    return <footer>Damian Ludef — 2021</footer>;
   }
 }
 
