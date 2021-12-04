@@ -7,7 +7,7 @@ const SelectColor = (props) => {
 
   return (
     <div className="select">
-      <p>Wybierz kolor:</p>
+      Wybierz kolor:
       <button
         className="red"
         onClick={() => {
@@ -48,6 +48,13 @@ const SelectColor = (props) => {
         onClick={() => {
           props.click("green");
           setActive("green");
+        }}
+      ></button>
+      <button
+        className="orange"
+        onClick={() => {
+          props.click("orange");
+          setActive("orange");
         }}
       ></button>
       {/* Zaznaczone: {props.selected.join(", ")} */}

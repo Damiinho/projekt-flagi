@@ -53,6 +53,10 @@ button.green {
     background-color: rgb(67, 158, 67);
 }
 
+button.orange {
+    background-color: rgb(223, 146, 5);
+}
+
 button.active {
     box-shadow: 0px 0px 3px 3px rgb(160, 207, 176);
 }

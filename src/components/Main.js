@@ -2,6 +2,7 @@ import React from "react";
 import FullList from "./FullList";
 import Detail from "./Detail";
 import SelectColor from "./SelectColor";
+import SelectStripes from "./SelectStripes";
 import "../style/Main.css";
 
 class Main extends React.Component {
@@ -16,6 +17,7 @@ class Main extends React.Component {
       active: "",
     },
     selectedColors: [],
+    selectedStripes: "",
   };
 
   componentDidMount() {
@@ -41,6 +43,45 @@ class Main extends React.Component {
     });
   };
 
+  changeSelectedStripes = (item) => {
+    let selectedStripes;
+
+    if (this.state.selectedStripes === item) {
+      selectedStripes = null;
+    } else {
+      selectedStripes = item;
+    }
+    this.filterFullListByStripes(selectedStripes);
+    this.setState({
+      selectedStripes,
+    });
+  };
+
+  filterFullListByStripes = (selectedStripes) => {
+    let flagList = [...this.state.flags];
+
+    flagList.map((el) => {
+      if (selectedStripes === "horizontal" && el.horizontalStripes === true) {
+        el.active = true;
+        return el;
+      } else if (
+        selectedStripes === "vertical" &&
+        el.verticalStripes === true
+      ) {
+        el.active = true;
+        return el;
+      }
+      if (selectedStripes === null) {
+        el.active = true;
+        return el;
+      } else {
+        el.active = false;
+      }
+    });
+
+    // console.log(workFlagList);
+  };
+
   changeSelectedColor = (item) => {
     let selectedColors = [...this.state.selectedColors];
 
@@ -63,9 +104,7 @@ class Main extends React.Component {
 
   filterFullListByColor = (selectedColors) => {
     let flagList = [...this.state.flags];
-    let backtoActive = [];
-
-    backtoActive = flagList.map((el) => {
+    let backtoActive = flagList.map((el) => {
       el.active = true;
       return el;
     });
@@ -75,7 +114,7 @@ class Main extends React.Component {
         let findItem = el.colors.findIndex((item) => item === color);
         if (findItem < 0) {
           el.active = false;
-        } else if (el.active === true) {
+        } else if (findItem > 0) {
           el.active = true;
         }
         return el;
@@ -93,6 +132,11 @@ class Main extends React.Component {
           click={this.changeSelectedColor}
           selected={this.state.selectedColors}
         />
+        <SelectStripes
+          click={this.changeSelectedStripes}
+          selected={this.state.selectedStripes}
+        />
+
         <div className="main-box">
           <div className="full-list">
             <FullList

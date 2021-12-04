@@ -2,8 +2,9 @@ import React from "react";
 import SmallOne from "./SmallOne";
 
 class FullList extends React.Component {
-  handleList = (props) =>
-    this.props.flags.map((item) => (
+  listShowCountries = "";
+  handleList = (props) => {
+    this.listShowCountries = this.props.flags.map((item) => (
       <SmallOne
         key={item.name}
         name={item.name}
@@ -15,6 +16,11 @@ class FullList extends React.Component {
         click={this.props.click}
       />
     ));
+
+    return this.listShowCountries;
+
+    // .slice(0, 10);
+  };
 
   render() {
     return <>{this.handleList()}</>;
