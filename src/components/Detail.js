@@ -16,8 +16,8 @@ const Detail = (props) => {
     props.data.region = "Australia/Oceania";
   } else if (props.data.region === "carraibean") {
     props.data.region = "Karaiby";
-  } else if (props.data.region === "other") {
-    props.data.region = "Inne";
+  } else if (props.data.region === "antarctica") {
+    props.data.region = "Antarktyda";
   }
 
   if (props.data.name) {
@@ -29,7 +29,13 @@ const Detail = (props) => {
         <img src={props.data.img} alt={props.data.name} />
       </div>
     );
-  } else return null;
+  } else
+    return (
+      <div class="detail">
+        Jeśli naciśniesz flagę po lewej stronie, tutaj wyświetli się kilka
+        danych.
+      </div>
+    );
 };
 
 export default Detail;
