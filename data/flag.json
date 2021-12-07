@@ -1,0 +1,1980 @@
+[ {
+    "id": 0,
+        "active": true,
+        "name": "Andora",
+        "colors": ["blue", "yellow", "red"],
+        "img": "/flags/ad.png",
+        "region": "europe",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 1,
+        "active": true,
+        "name": "Zjednoczone Emiraty Arabskie",
+        "colors": ["red", "green", "white", "black"],
+        "img": "/flags/ae.png",
+        "region": "asia",
+        "verticalStripes": true,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 2,
+        "active": true,
+        "name": "Afganistan",
+        "colors": ["red", "green", "black"],
+        "img": "/flags/af.png",
+        "region": "asia",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 3,
+        "active": true,
+        "name": "Antigua i Barbuda",
+        "colors": ["red", "blue", "white", "black", "yellow"],
+        "img": "/flags/ag.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 4,
+        "active": true,
+        "name": "Brytyjskie Terytorium Zamorskie Anguilla",
+        "colors": ["red", "blue", "white", "yellow"],
+        "img": "/flags/ai.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 5,
+        "active": true,
+        "name": "Albania",
+        "colors": ["red", "black"],
+        "img": "/flags/al.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 6,
+        "active": true,
+        "name": "Armenia",
+        "colors": ["red", "blue", "yellow"],
+        "img": "/flags/am.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 7,
+        "active": true,
+        "name": "Angola",
+        "colors": ["red", "black", "yellow"],
+        "img": "/flags/ao.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 8,
+        "active": true,
+        "name": "Antarktyda",
+        "colors": ["blue", "white"],
+        "img": "/flags/aq.png",
+        "region": "antarctica",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 9,
+        "active": true,
+        "name": "Argentyna",
+        "colors": ["blue", "white", "yellow"],
+        "img": "/flags/ar.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 10,
+        "active": true,
+        "name": "Samoa Amerykańskie",
+        "colors": ["blue", "white", "red"],
+        "img": "/flags/as.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": false
+}
+
+,
+    {
+    "id": 11,
+        "active": true,
+        "name": "Austria",
+        "colors": ["white", "red"],
+        "img": "/flags/at.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 12,
+        "active": true,
+        "name": "Australia",
+        "colors": ["white", "red", "blue"],
+        "img": "/flags/au.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 13,
+        "active": true,
+        "name": "Aruba",
+        "colors": ["blue", "yellow", "red"],
+        "img": "/flags/aw.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": false,
+        "country": false
+}
+
+,
+    {
+    "id": 14,
+        "active": true,
+        "name": "Wyspy Alandzkie",
+        "colors": ["blue", "yellow", "red"],
+        "img": "/flags/ax.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 15,
+        "active": true,
+        "name": "Azerbejdżan",
+        "colors": ["white", "red", "green", "blue"],
+        "img": "/flags/az.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 16,
+        "active": true,
+        "name": "Bośnia i Hercehowina",
+        "colors": ["white", "blue", "yellow"],
+        "img": "/flags/ba.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 17,
+        "active": true,
+        "name": "Barbados",
+        "colors": ["blue", "yellow"],
+        "img": "/flags/bb.png",
+        "region": "carraibean",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 18,
+        "active": true,
+        "name": "Bangladesz",
+        "colors": ["green", "red"],
+        "img": "/flags/bd.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 19,
+        "active": true,
+        "name": "Belgia",
+        "colors": ["black", "yellow", "red"],
+        "img": "/flags/be.png",
+        "region": "europe",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 20,
+        "active": true,
+        "name": "Burkina Faso",
+        "colors": ["green", "yellow", "red"],
+        "img": "/flags/bf.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 21,
+        "active": true,
+        "name": "Bułgaria",
+        "colors": ["white", "red", "green"],
+        "img": "/flags/bg.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 22,
+        "active": true,
+        "name": "Bahrajn",
+        "colors": ["white", "red"],
+        "img": "/flags/bh.png",
+        "region": "asia",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 23,
+        "active": true,
+        "name": "Burundi",
+        "colors": ["white", "red", "yellow"],
+        "img": "/flags/bi.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 24,
+        "active": true,
+        "name": "Benin",
+        "colors": ["green", "yellow", "red"],
+        "img": "/flags/bj.png",
+        "region": "africa",
+        "verticalStripes": true,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 25,
+        "active": true,
+        "name": "Wspólnota Saint-Barthélemy",
+        "colors": ["blue", "yellow", "red", "white"],
+        "img": "/flags/bl.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 26,
+        "active": true,
+        "name": "Bermudy",
+        "colors": ["blue", "red", "white"],
+        "img": "/flags/bm.png",
+        "region": "north-america",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 27,
+        "active": true,
+        "name": "Brunei",
+        "colors": ["white", "yellow", "red", "black"],
+        "img": "/flags/bn.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 28,
+        "active": true,
+        "name": "Boliwia",
+        "colors": ["green", "yellow", "red"],
+        "img": "/flags/bo.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 29,
+        "active": true,
+        "name": "Bonaire",
+        "colors": ["blue", "yellow", "white"],
+        "img": "/flags/bq.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 30,
+        "active": true,
+        "name": "Brazylia",
+        "colors": ["green", "yellow", "blue"],
+        "img": "/flags/br.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 31,
+        "active": true,
+        "name": "Bahamy",
+        "colors": ["blue", "yellow", "black"],
+        "img": "/flags/bs.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 32,
+        "active": true,
+        "name": "Bhutan",
+        "colors": ["white", "yellow", "orange"],
+        "img": "/flags/bt.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 33,
+        "active": true,
+        "name": "Botswana",
+        "colors": ["white", "blue", "black"],
+        "img": "/flags/bw.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 34,
+        "active": true,
+        "name": "Białoruś",
+        "colors": ["red", "green", "white"],
+        "img": "/flags/by.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 35,
+        "active": true,
+        "name": "Belize",
+        "colors": ["red", "blue"],
+        "img": "/flags/bz.png",
+        "region": "north-america",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 36,
+        "active": true,
+        "name": "Kanada",
+        "colors": ["white", "red"],
+        "img": "/flags/ca.png",
+        "region": "north-america",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 37,
+        "active": true,
+        "name": "Wyspy Kokosowe",
+        "colors": ["yellow", "green"],
+        "img": "/flags/cc.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 38,
+        "active": true,
+        "name": "Demokratyczna Republika Konga",
+        "colors": ["yellow", "blue", "red"],
+        "img": "/flags/cd.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 39,
+        "active": true,
+        "name": "Republika Środkowoafrykańska",
+        "colors": ["white", "green", "yellow", "red", "blue"],
+        "img": "/flags/cf.png",
+        "region": "africa",
+        "verticalStripes": true,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 40,
+        "active": true,
+        "name": "Kongo",
+        "colors": ["green", "yellow", "red"],
+        "img": "/flags/cg.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 41,
+        "active": true,
+        "name": "Szwajcaria",
+        "colors": ["white", "red"],
+        "img": "/flags/ch.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 42,
+        "active": true,
+        "name": "Wybrzeże Kości Słoniowej",
+        "colors": ["white", "orange", "yellow", "green"],
+        "img": "/flags/ci.png",
+        "region": "africa",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 43,
+        "active": true,
+        "name": "Wyspy Cooka",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/ck.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 44,
+        "active": true,
+        "name": "Chile",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/cl.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 45,
+        "active": true,
+        "name": "Kamerun",
+        "colors": ["green", "red", "yellow"],
+        "img": "/flags/cm.png",
+        "region": "africa",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 46,
+        "active": true,
+        "name": "Chiny",
+        "colors": ["red", "yellow"],
+        "img": "/flags/cn.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 47,
+        "active": true,
+        "name": "Kolumbia",
+        "colors": ["yellow", "blue", "red"],
+        "img": "/flags/co.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 48,
+        "active": true,
+        "name": "Kostaryka",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/cr.png",
+        "region": "north-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 49,
+        "active": true,
+        "name": "Kuba",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/cu.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 50,
+        "active": true,
+        "name": "Republikja Zielonego Przylądka",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/cv.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 51,
+        "active": true,
+        "name": "Curaçao",
+        "colors": ["white", "blue", "yellow"],
+        "img": "/flags/cw.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 52,
+        "active": true,
+        "name": "Wyspy Bożego Narodzenia",
+        "colors": ["green", "blue", "yellow"],
+        "img": "/flags/cx.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 53,
+        "active": true,
+        "name": "Cypr",
+        "colors": ["white", "yellow"],
+        "img": "/flags/cy.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 54,
+        "active": true,
+        "name": "Czechy",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/cz.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 55,
+        "active": true,
+        "name": "Niemcy",
+        "colors": ["red", "black", "yellow"],
+        "img": "/flags/de.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 56,
+        "active": true,
+        "name": "Dżibuti",
+        "colors": ["white", "blue", "green", "red"],
+        "img": "/flags/dj.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 57,
+        "active": true,
+        "name": "Dania",
+        "colors": ["red", "white"],
+        "img": "/flags/dk.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 58,
+        "active": true,
+        "name": "Dominika",
+        "colors": ["white", "black", "red", "yellow"],
+        "img": "/flags/dm.png",
+        "region": "carraibean",
+        "verticalStripes": true,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 59,
+        "active": true,
+        "name": "Dominikana",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/do.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 60,
+        "active": true,
+        "name": "Algieria",
+        "colors": ["white", "green", "red"],
+        "img": "/flags/dz.png",
+        "region": "africa",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 61,
+        "active": true,
+        "name": "Ekwador",
+        "colors": ["yellow", "blue", "red"],
+        "img": "/flags/ec.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 62,
+        "active": true,
+        "name": "Estonia",
+        "colors": ["white", "blue", "black"],
+        "img": "/flags/ee.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 63,
+        "active": true,
+        "name": "Egipt",
+        "colors": ["white", "black", "red"],
+        "img": "/flags/eg.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 64,
+        "active": true,
+        "name": "Sahara Zachodnia",
+        "colors": ["white", "black", "red", "green"],
+        "img": "/flags/eh.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 65,
+        "active": true,
+        "name": "Erytrea",
+        "colors": ["green", "blue", "red"],
+        "img": "/flags/er.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 66,
+        "active": true,
+        "name": "Hiszpania",
+        "colors": ["yellow", "red"],
+        "img": "/flags/es.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 67,
+        "active": true,
+        "name": "Etiopia",
+        "colors": ["greem", "blue", "red", "yellow"],
+        "img": "/flags/et.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 68,
+        "active": true,
+        "name": "Finlandia",
+        "colors": ["white", "blue"],
+        "img": "/flags/fi.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 69,
+        "active": true,
+        "name": "Fidżi",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/fj.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 70,
+        "active": true,
+        "name": "Falklandy",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/fk.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 71,
+        "active": true,
+        "name": "Mikronezja",
+        "colors": ["white", "blue"],
+        "img": "/flags/fm.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 72,
+        "active": true,
+        "name": "Wyspy Owcze",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/fo.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": false
+}
+
+,
+    {
+    "id": 73,
+        "active": true,
+        "name": "Francja",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/fr.png",
+        "region": "europe",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 74,
+        "active": true,
+        "name": "Gabon",
+        "colors": ["yellow", "blue", "green"],
+        "img": "/flags/ga.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 75,
+        "active": true,
+        "name": "Wielka Brytania",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/gb.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 76,
+        "active": true,
+        "name": "Anglia",
+        "colors": ["white", "red"],
+        "img": "/flags/gb-eng.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 77,
+        "active": true,
+        "name": "Irlandia Północna",
+        "colors": ["white", "red"],
+        "img": "/flags/gb-nir.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 78,
+        "active": true,
+        "name": "Szkocja",
+        "colors": ["white", "blue"],
+        "img": "/flags/gb-sct.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 79,
+        "active": true,
+        "name": "Walia",
+        "colors": ["white", "green", "red"],
+        "img": "/flags/gb-wls.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 80,
+        "active": true,
+        "name": "Grenada",
+        "colors": ["yellow", "green", "red"],
+        "img": "/flags/gd.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 81,
+        "active": true,
+        "name": "Gruzja",
+        "colors": ["white", "red"],
+        "img": "/flags/ge.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 82,
+        "active": true,
+        "name": "Gujana Francuska",
+        "colors": ["green", "yellow", "red"],
+        "img": "/flags/gf.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 83,
+        "active": true,
+        "name": "Guernsey",
+        "colors": ["white", "red"],
+        "img": "/flags/gg.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 84,
+        "active": true,
+        "name": "Ghana",
+        "colors": ["yellow", "green", "red", "black"],
+        "img": "/flags/gh.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 85,
+        "active": true,
+        "name": "Giblartar",
+        "colors": ["white", "red"],
+        "img": "/flags/gi.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 86,
+        "active": true,
+        "name": "Grenlandia",
+        "colors": ["white", "red"],
+        "img": "/flags/gl.png",
+        "region": "north-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": false,
+        "country": false
+}
+
+,
+    {
+    "id": 87,
+        "active": true,
+        "name": "Gambia",
+        "colors": ["blue", "green", "red", "white"],
+        "img": "/flags/gm.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 88,
+        "active": true,
+        "name": "Gwinea",
+        "colors": ["yellow", "green", "red"],
+        "img": "/flags/gn.png",
+        "region": "africa",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 89,
+        "active": true,
+        "name": "Gwadelupa",
+        "colors": ["yellow", "green", "blue"],
+        "img": "/flags/gp.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 90,
+        "active": true,
+        "name": "Gwinea Równikowa",
+        "colors": ["white", "green", "red", "blue"],
+        "img": "/flags/gq.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 91,
+        "active": true,
+        "name": "Grecja",
+        "colors": ["blue", "white"],
+        "img": "/flags/gn.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 92,
+        "active": true,
+        "name": "Georgia Południowa",
+        "colors": ["blue", "red"],
+        "img": "/flags/gs.png",
+        "region": "antarctica",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 93,
+        "active": true,
+        "name": "Gwatemala",
+        "colors": ["blue", "white"],
+        "img": "/flags/gt.png",
+        "region": "north-america",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 94,
+        "active": true,
+        "name": "Guam",
+        "colors": ["blue", "red"],
+        "img": "/flags/gu.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 95,
+        "active": true,
+        "name": "Gwinea Bissau",
+        "colors": ["yellow", "green", "red"],
+        "img": "/flags/gw.png",
+        "region": "africa",
+        "verticalStripes": true,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 96,
+        "active": true,
+        "name": "Gujana",
+        "colors": ["yellow", "green", "red"],
+        "img": "/flags/gy.png",
+        "region": "south-america",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 97,
+        "active": true,
+        "name": "Hongkong",
+        "colors": ["white", "red"],
+        "img": "/flags/hk.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 98,
+        "active": true,
+        "name": "Honduras",
+        "colors": ["white", "red"],
+        "img": "/flags/hn.png",
+        "region": "north-america",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 99,
+        "active": true,
+        "name": "Chorwacja",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/hr.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 100,
+        "active": true,
+        "name": "Haiti",
+        "colors": ["blue", "red"],
+        "img": "/flags/ht.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 101,
+        "active": true,
+        "name": "Węgry",
+        "colors": ["white", "green", "red"],
+        "img": "/flags/hu.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 102,
+        "active": true,
+        "name": "Indonezja",
+        "colors": ["white", "red"],
+        "img": "/flags/id.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 103,
+        "active": true,
+        "name": "Irlandia",
+        "colors": ["yellow", "white", "green", "orange"],
+        "img": "/flags/ie.png",
+        "region": "europe",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 102,
+        "active": true,
+        "name": "Izrael",
+        "colors": ["white", "blue"],
+        "img": "/flags/il.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 103,
+        "active": true,
+        "name": "Wyspa Man",
+        "colors": ["white", "red"],
+        "img": "/flags/im.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 104,
+        "active": true,
+        "name": "Indie",
+        "colors": ["white", "green", "yellow", "orange"],
+        "img": "/flags/in.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 105,
+        "active": true,
+        "name": "Brytyjskie Terytorium Oceanu Indyjskiego",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/io.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 106,
+        "active": true,
+        "name": "Irak",
+        "colors": ["white", "green", "red", "black"],
+        "img": "/flags/iq.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 107,
+        "active": true,
+        "name": "Iran",
+        "colors": ["white", "green", "red"],
+        "img": "/flags/ir.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 108,
+        "active": true,
+        "name": "Islandia",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/is.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 109,
+        "active": true,
+        "name": "Włochy",
+        "colors": ["white", "green", "red"],
+        "img": "/flags/it.png",
+        "region": "europe",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": false,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 110,
+        "active": true,
+        "name": "Wyspa Jersey",
+        "colors": ["white", "red"],
+        "img": "/flags/je.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 111,
+        "active": true,
+        "name": "Jamajka",
+        "colors": ["black", "green", "yellow"],
+        "img": "/flags/jm.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 112,
+        "active": true,
+        "name": "Jordania",
+        "colors": ["white", "green", "red", "black"],
+        "img": "/flags/jo.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 113,
+        "active": true,
+        "name": "Japonia",
+        "colors": ["white", "red"],
+        "img": "/flags/jp.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 114,
+        "active": true,
+        "name": "Kenia",
+        "colors": ["black", "green", "red"],
+        "img": "/flags/ke.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 115,
+        "active": true,
+        "name": "Kirgistan",
+        "colors": ["yellow", "red"],
+        "img": "/flags/kg.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 116,
+        "active": true,
+        "name": "Kambodża",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/kh.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 117,
+        "active": true,
+        "name": "Kiribati",
+        "colors": ["white", "yellow", "blue", "red"],
+        "img": "/flags/ki.png",
+        "region": "oceania",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 118,
+        "active": true,
+        "name": "Komory",
+        "colors": ["white", "green", "red", "yellow", "blue"],
+        "img": "/flags/km.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 119,
+        "active": true,
+        "name": "Saint Kitts i Nevis",
+        "colors": ["back", "yellow", "white", "green", "red"],
+        "img": "/flags/kn.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 120,
+        "active": true,
+        "name": "Korea Północna",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/kp.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 121,
+        "active": true,
+        "name": "Korea Południowa",
+        "colors": ["white", "blue", "red", "black"],
+        "img": "/flags/kr.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 122,
+        "active": true,
+        "name": "Kuwejt",
+        "colors": ["white", "green", "red", "black"],
+        "img": "/flags/kw.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 123,
+        "active": true,
+        "name": "Kajmany",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/ky.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": false
+}
+
+,
+    {
+    "id": 124,
+        "active": true,
+        "name": "Kazachstan",
+        "colors": ["yellow", "blue"],
+        "img": "/flags/kz.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 125,
+        "active": true,
+        "name": "Laos",
+        "colors": ["white", "blue", "red"],
+        "img": "/flags/la.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 126,
+        "active": true,
+        "name": "Liban",
+        "colors": ["white", "green", "red"],
+        "img": "/flags/lb.png",
+        "region": "asia",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 127,
+        "active": true,
+        "name": "Saint Lucia",
+        "colors": ["blue", "yellow", "black"],
+        "img": "/flags/lc.png",
+        "region": "carraibean",
+        "verticalStripes": false,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": false,
+        "country": true
+}
+
+,
+    {
+    "id": 128,
+        "active": true,
+        "name": "Liechtenstein",
+        "colors": ["blue", "red"],
+        "img": "/flags/li.png",
+        "region": "europe",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
+
+,
+    {
+    "id": 129,
+        "active": true,
+        "name": "Sri Lanka",
+        "colors": ["yellow", "orange", "green", "red"],
+        "img": "/flags/lk.png",
+        "region": "asia",
+        "verticalStripes": true,
+        "horizontalStripes": false,
+        "otherShipes": true,
+        "symbols": true,
+        "country": true
+}
+
+]
