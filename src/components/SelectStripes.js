@@ -22,7 +22,6 @@ const SelectStripes = (props) => {
 
   return (
     <div className="stripes">
-      Rodzaj pasków:
       <button
         className="stripes vertical"
         onClick={() => {
@@ -30,7 +29,7 @@ const SelectStripes = (props) => {
           setActiveVertical();
         }}
       >
-        pionowe
+        paski pionowe
       </button>
       <button
         className="stripes horizontal"
@@ -39,7 +38,7 @@ const SelectStripes = (props) => {
           setActiveHorizontal();
         }}
       >
-        poziome
+        paski poziome
       </button>
       <button
         className="stripes other-shipes"
@@ -48,7 +47,7 @@ const SelectStripes = (props) => {
           setActiveOther("other-shipes");
         }}
       >
-        Inne ksz.
+        Inne kształty
       </button>
       <button
         className="stripes symbols"

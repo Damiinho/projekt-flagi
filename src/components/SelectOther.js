@@ -17,7 +17,6 @@ const SelectOther = (props) => {
 
   return (
     <div className="other">
-      Wybierz:
       <button
         className="other countries"
         onClick={() => {

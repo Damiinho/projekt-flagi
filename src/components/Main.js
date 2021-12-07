@@ -178,6 +178,14 @@ class Main extends React.Component {
       isOtherShipesSelected,
       isSymbolSelected,
       isCountrySelected,
+      itemOnClick: {
+        name: "",
+        colors: "",
+        img: "",
+        region: "",
+        stripes: "",
+        active: "",
+      },
     });
   };
 
@@ -328,25 +336,30 @@ class Main extends React.Component {
     return (
       <div className="main">
         <div className="select-box">
-          <SelectColor
-            click={this.changeSelectedColor}
-            selected={this.state.selectedColors}
-          />
-          <SelectStripes
-            click={this.changeSelectedStripes}
-            selected={this.state.selectedStripes}
-            clickOtherShipes={this.changeSelectedShipes}
-            clickSymbols={this.changeSelectedSymbols}
-          />
-          <SelectRegion
-            click={this.changeSelectedRegion}
-            selected={this.state.selectedRegion}
-          />
-          <SelectOther
-            clickCountry={this.changeSelectedCountries}
-            clickReset={this.handleReset}
-            selected={this.state.selectedRegion}
-          />
+          <div className="selectors">
+            <SelectColor
+              click={this.changeSelectedColor}
+              selected={this.state.selectedColors}
+            />
+            <SelectStripes
+              click={this.changeSelectedStripes}
+              selected={this.state.selectedStripes}
+              clickOtherShipes={this.changeSelectedShipes}
+              clickSymbols={this.changeSelectedSymbols}
+            />
+            <SelectRegion
+              click={this.changeSelectedRegion}
+              selected={this.state.selectedRegion}
+            />
+            <SelectOther
+              clickCountry={this.changeSelectedCountries}
+              clickReset={this.handleReset}
+              selected={this.state.selectedRegion}
+            />
+          </div>
+          <div className="detail-box">
+            <Detail data={this.state.itemOnClick} />
+          </div>
         </div>
 
         <div className="main-box">
@@ -355,9 +368,6 @@ class Main extends React.Component {
               flags={this.state.flags}
               click={this.handleSmallOneClick}
             />
-          </div>
-          <div>
-            <Detail data={this.state.itemOnClick} />
           </div>
         </div>
       </div>

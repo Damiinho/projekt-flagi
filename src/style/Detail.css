@@ -1,12 +1,11 @@
-.detail {
-    padding: 10px 0 0 20px;
+.detail img {
+    max-height: 125px;
 }
 
 .detail p {
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 20px;
 }
 
-.detail img {
-    max-height: 200px;
+.detail {
+    padding-left: 50px;
 }

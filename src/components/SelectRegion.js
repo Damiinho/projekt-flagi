@@ -74,7 +74,6 @@ const SelectRegion = (props) => {
 
   return (
     <div className="region">
-      Wybierz region:
       <button
         className="region europe"
         onClick={() => {

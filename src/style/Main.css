@@ -1,30 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    transition: .3s;
+    background-color: rgb(247, 247, 247);
+    font-family: 'Open Sans', 'sans-serif';
+}
+
 .main {
     background-color: #E8DDB5;
-    height: 90vh;
+    min-height: 90vh
 }
 
 .select-box {
-    height: 15%;
     background-color: #e5ebea;
-}
-
-
-.main-box {
-    /* border-top: 5px solid #5941A9; */
     display: flex;
-    overflow: hidden;
-    height: 85%;
+    align-items: flex-start;
+    flex-direction: row;
+    min-height: 250px;
 }
 
-.main-box div {
-    width: 50vw;
+.selectors {
+    padding-top: 10px;
+    width: 60%;
+}
+
+.detail-box {
+    width: 40%;
 }
 
 .main-box div.full-list {
+
+    border-top: 5px solid #5941A9;
     padding: 20px;
-    border-right: 5px solid #5941A9;
     display: flex;
     flex-wrap: wrap;
-    height: 95%;
+    align-content: flex-start;
     overflow: auto;
 }

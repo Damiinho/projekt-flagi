@@ -23,7 +23,6 @@ const Detail = (props) => {
   if (props.data.name) {
     return (
       <div class="detail">
-        Szczegóły:
         <p>{props.data.name}</p>
         <p>Region: {props.data.region}</p>
         <img src={props.data.img} alt={props.data.name} />
@@ -32,8 +31,10 @@ const Detail = (props) => {
   } else
     return (
       <div class="detail">
-        Jeśli naciśniesz flagę po lewej stronie, tutaj wyświetli się kilka
-        danych.
+        <p>
+          Jeśli naciśniesz flagę z listy poniżej, tutaj wyświetli się kilka
+          danych.
+        </p>
       </div>
     );
 };
