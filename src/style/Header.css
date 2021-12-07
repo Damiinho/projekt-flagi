@@ -1,11 +1,10 @@
 header {
-    margin: 0 auto;
-    height: 100px;
+    height: 8vh;
     background-color: black;
     color: #FBFBFF;
     text-align: center;
-    font-size: 30px;
+    font-size: 4vh;
     font-weight: bold;
-    line-height: 100px;
+    line-height: 8vh;
     text-transform: uppercase;
 }

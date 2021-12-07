@@ -16,8 +16,12 @@ const SelectStripes = (props) => {
     }
   };
 
+  const setActiveOther = (item) => {
+    document.querySelector(`.${item}`).classList.toggle("active");
+  };
+
   return (
-    <div className="select stripes">
+    <div className="stripes">
       Rodzaj pasków:
       <button
         className="stripes vertical"
@@ -36,6 +40,24 @@ const SelectStripes = (props) => {
         }}
       >
         poziome
+      </button>
+      <button
+        className="stripes other-shipes"
+        onClick={() => {
+          props.clickOtherShipes();
+          setActiveOther("other-shipes");
+        }}
+      >
+        Inne ksz.
+      </button>
+      <button
+        className="stripes symbols"
+        onClick={() => {
+          props.clickSymbols();
+          setActiveOther("symbols");
+        }}
+      >
+        Symbole
       </button>
     </div>
   );

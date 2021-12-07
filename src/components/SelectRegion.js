@@ -145,7 +145,7 @@ const SelectRegion = (props) => {
           setActiveRegion("antarctica");
         }}
       >
-        Antarktyda :)
+        Antarktyka
       </button>
     </div>
   );

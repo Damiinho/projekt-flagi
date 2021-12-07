@@ -3,5 +3,6 @@ footer {
     text-align: center;
     color: #FBFBFF;
     /* font-weight: bold; */
-    line-height: 30px;
+    height: 2vh;
+    line-height: 2vh;
 }

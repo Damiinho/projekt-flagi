@@ -17,7 +17,7 @@ const Detail = (props) => {
   } else if (props.data.region === "carraibean") {
     props.data.region = "Karaiby";
   } else if (props.data.region === "antarctica") {
-    props.data.region = "Antarktyda";
+    props.data.region = "Antarktyka";
   }
 
   if (props.data.name) {

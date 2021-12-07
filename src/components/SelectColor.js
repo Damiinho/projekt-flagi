@@ -6,52 +6,52 @@ const SelectColor = (props) => {
     document.querySelector(`.${color}`).classList.toggle("active");
 
   return (
-    <div className="select">
+    <div className="colors">
       Wybierz kolor:
       <button
-        className="red"
+        className="color red"
         onClick={() => {
           props.click("red");
           setActive("red");
         }}
       ></button>
       <button
-        className="white"
+        className="color white"
         onClick={() => {
           props.click("white");
           setActive("white");
         }}
       ></button>
       <button
-        className="black"
+        className="color black"
         onClick={() => {
           props.click("black");
           setActive("black");
         }}
       ></button>
       <button
-        className="yellow"
+        className="color yellow"
         onClick={() => {
           props.click("yellow");
           setActive("yellow");
         }}
       ></button>
       <button
-        className="blue"
+        className="color blue"
         onClick={() => {
           props.click("blue");
           setActive("blue");
         }}
       ></button>
       <button
-        className="green"
+        className="color green"
         onClick={() => {
           props.click("green");
           setActive("green");
         }}
       ></button>
       <button
-        className="orange"
+        className="color orange"
         onClick={() => {
           props.click("orange");
           setActive("orange");

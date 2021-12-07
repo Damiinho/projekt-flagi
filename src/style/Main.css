@@ -1,13 +1,19 @@
 .main {
     background-color: #E8DDB5;
+    height: 90vh;
 }
 
+.select-box {
+    height: 15%;
+    background-color: #e5ebea;
+}
+
+
 .main-box {
-    border-top: 5px solid #5941A9;
+    /* border-top: 5px solid #5941A9; */
     display: flex;
-    min-height: 700px;
-    max-height: 1000px;
     overflow: hidden;
+    height: 85%;
 }
 
 .main-box div {
@@ -16,6 +22,9 @@
 
 .main-box div.full-list {
     padding: 20px;
-    border-right: 10px solid #5941A9;
-    /* height: 100%; */
+    border-right: 5px solid #5941A9;
+    display: flex;
+    flex-wrap: wrap;
+    height: 95%;
+    overflow: auto;
 }

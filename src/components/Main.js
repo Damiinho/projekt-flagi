@@ -3,8 +3,9 @@ import FullList from "./FullList";
 import Detail from "./Detail";
 import SelectColor from "./SelectColor";
 import SelectStripes from "./SelectStripes";
-import "../style/Main.css";
 import SelectRegion from "./SelectRegion";
+import SelectOther from "./SelectOther";
+import "../style/Main.css";
 
 class Main extends React.Component {
   state = {
@@ -19,7 +20,10 @@ class Main extends React.Component {
     },
     selectedColors: [],
     selectedStripes: "stripesfree",
-    selectedRegiuon: "anyregion",
+    selectedRegion: "anyregion",
+    isOtherShipesSelected: "onlywithothershipes",
+    isSymbolSelected: "symbolsfree",
+    isCountrySelected: "allflags",
   };
 
   componentDidMount() {
@@ -44,86 +48,6 @@ class Main extends React.Component {
       },
     });
   };
-
-  // changeSelectedStripes = (item) => {
-  //   let selectedStripes;
-
-  //   if (this.state.selectedStripes === item) {
-  //     selectedStripes = null;
-  //   } else {
-  //     selectedStripes = item;
-  //   }
-  //   this.filterFullListByStripes(selectedStripes);
-  //   this.setState({
-  //     selectedStripes,
-  //   });
-  // };
-
-  // filterFullListByStripes = (selectedStripes) => {
-  //   let flagList = [...this.state.flags];
-
-  //   flagList.map((el) => {
-  //     if (selectedStripes === "horizontal" && el.horizontalStripes === true) {
-  //       el.active = true;
-  //       return el;
-  //     } else if (
-  //       selectedStripes === "vertical" &&
-  //       el.verticalStripes === true
-  //     ) {
-  //       el.active = true;
-  //       return el;
-  //     }
-  //     if (selectedStripes === null) {
-  //       el.active = true;
-  //       return el;
-  //     } else {
-  //       el.active = false;
-  //     }
-  //   });
-  // };
-
-  // changeSelectedColor = (item) => {
-  //   let selectedColors = [...this.state.selectedColors];
-
-  //   const isSelectedFilter = (el) => el !== item;
-  //   const findItem = selectedColors.findIndex((el) => el === item);
-
-  //   if (findItem < 0) {
-  //     selectedColors = [...this.state.selectedColors].concat(item);
-  //   } else {
-  //     selectedColors = selectedColors.filter(isSelectedFilter);
-  //   }
-
-  //   let flags = this.filterFullListByColor(selectedColors);
-
-  //   this.setState({
-  //     selectedColors,
-  //     flags,
-  //   });
-  // };
-
-  // filterFullListByColor = (selectedColors) => {
-  //   let flagList = [...this.state.flags];
-  //   let backtoActive = flagList.map((el) => {
-  //     el.active = true;
-  //     return el;
-  //   });
-
-  //   selectedColors.map((color) => {
-  //     flagList = backtoActive.map((el) => {
-  //       let findItem = el.colors.findIndex((item) => item === color);
-  //       if (findItem < 0) {
-  //         el.active = false;
-  //       } else if (findItem > 0) {
-  //         el.active = true;
-  //       }
-  //       return el;
-  //     });
-
-  //     return flagList;
-  //   });
-  //   return flagList;
-  // };
 
   changeSelectedRegion = (item) => {
     let selectedRegion;
@@ -175,11 +99,96 @@ class Main extends React.Component {
     });
   };
 
+  changeSelectedShipes = () => {
+    let isOtherShipesSelected;
+
+    if (this.state.isOtherShipesSelected === "onlywithothershipes") {
+      isOtherShipesSelected = "anyshipes";
+    } else isOtherShipesSelected = "onlywithothershipes";
+
+    this.changeList(isOtherShipesSelected);
+
+    this.setState({
+      isOtherShipesSelected,
+    });
+  };
+
+  changeSelectedSymbols = () => {
+    let isSymbolSelected;
+
+    if (this.state.isSymbolSelected === "symbolsfree") {
+      isSymbolSelected = "withsymbols";
+    } else isSymbolSelected = "symbolsfree";
+
+    this.changeList(isSymbolSelected);
+
+    this.setState({
+      isSymbolSelected,
+    });
+  };
+
+  changeSelectedCountries = () => {
+    let isCountrySelected;
+
+    if (this.state.isCountrySelected === "allflags") {
+      isCountrySelected = "onlycountries";
+    } else isCountrySelected = "allflags";
+
+    this.changeList(isCountrySelected);
+
+    this.setState({
+      isCountrySelected,
+    });
+  };
+
+  handleReset = () => {
+    let flags = [...this.state.flags];
+    let selectedColors = [];
+    let selectedStripes = "stripesfree";
+    let selectedRegion = "anyregion";
+    let isOtherShipesSelected = "onlywithothershipes";
+    let isSymbolSelected = "symbolsfree";
+    let isCountrySelected = "allflags";
+
+    [...document.querySelectorAll(".color")].map((el) =>
+      el.classList.remove("active")
+    );
+    [...document.querySelectorAll(".region")].map((el) =>
+      el.classList.remove("active")
+    );
+    [...document.querySelectorAll(".stripes")].map((el) =>
+      el.classList.remove("active")
+    );
+    document
+      .querySelector("button.countries")
+      .classList.remove("onlycountries");
+    document.querySelector("button.countries").textContent =
+      "Przeszukaj tylko bazę krajów";
+
+    flags.map((el) => {
+      el.active = true;
+      return el;
+    });
+
+    this.setState({
+      flags,
+      selectedColors,
+      selectedStripes,
+      selectedRegion,
+      isOtherShipesSelected,
+      isSymbolSelected,
+      isCountrySelected,
+    });
+  };
+
   changeList = (item) => {
     let flags = [...this.state.flags];
     let selectedStripes = this.state.selectedStripes;
     let selectedColors = this.state.selectedColors;
     let selectedRegion = this.state.selectedRegion;
+    let isOtherShipesSelected = this.state.isOtherShipesSelected;
+    let isSymbolSelected = this.state.isSymbolSelected;
+    let isCountrySelected = this.state.isCountrySelected;
 
     if (typeof item === "object") {
       selectedColors = item;
@@ -201,6 +210,12 @@ class Main extends React.Component {
       item === "anyregion"
     ) {
       selectedRegion = item;
+    } else if (item === "anyshipes" || item === "onlywithothershipes") {
+      isOtherShipesSelected = item;
+    } else if (item === "symbolsfree" || item === "withsymbols") {
+      isSymbolSelected = item;
+    } else if (item === "onlycountries" || item === "allflags") {
+      isCountrySelected = item;
     }
 
     let backToActive = flags.map((el) => {
@@ -220,6 +235,30 @@ class Main extends React.Component {
         return el;
       }
 
+      return backToActive;
+    });
+
+    backToActive.map((el) => {
+      if (isOtherShipesSelected === "anyshipes" && el.otherShipes === false) {
+        el.active = false;
+        return el;
+      }
+      return backToActive;
+    });
+
+    backToActive.map((el) => {
+      if (isSymbolSelected === "withsymbols" && el.symbols === false) {
+        el.active = false;
+        return el;
+      }
+      return backToActive;
+    });
+
+    backToActive.map((el) => {
+      if (isCountrySelected === "onlycountries" && el.country === false) {
+        el.active = false;
+        return el;
+      }
       return backToActive;
     });
 
@@ -288,18 +327,27 @@ class Main extends React.Component {
   render() {
     return (
       <div className="main">
-        <SelectColor
-          click={this.changeSelectedColor}
-          selected={this.state.selectedColors}
-        />
-        <SelectStripes
-          click={this.changeSelectedStripes}
-          selected={this.state.selectedStripes}
-        />
-        <SelectRegion
-          click={this.changeSelectedRegion}
-          selected={this.state.selectedRegion}
-        />
+        <div className="select-box">
+          <SelectColor
+            click={this.changeSelectedColor}
+            selected={this.state.selectedColors}
+          />
+          <SelectStripes
+            click={this.changeSelectedStripes}
+            selected={this.state.selectedStripes}
+            clickOtherShipes={this.changeSelectedShipes}
+            clickSymbols={this.changeSelectedSymbols}
+          />
+          <SelectRegion
+            click={this.changeSelectedRegion}
+            selected={this.state.selectedRegion}
+          />
+          <SelectOther
+            clickCountry={this.changeSelectedCountries}
+            clickReset={this.handleReset}
+            selected={this.state.selectedRegion}
+          />
+        </div>
 
         <div className="main-box">
           <div className="full-list">
