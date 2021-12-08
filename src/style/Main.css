@@ -13,16 +13,22 @@ button {
 }
 
 .main {
-    background-color: #E8DDB5;
-    min-height: 90vh
+    min-height: 90vh;
+    background-color: #BFCC94;
+}
+
+.main-select {
+    border-top: 5px solid #344966;
+    background-color: #B4CDED;
 }
 
 .select-box {
-    background-color: #e5ebea;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     min-height: 250px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .selectors {
@@ -34,12 +40,15 @@ button {
     width: 40%;
 }
 
-.main-box div.full-list {
+.main-box {
+    border-top: 5px solid #344966;
+}
 
-    border-top: 5px solid #5941A9;
+.main-box div.full-list {
+    margin: 0 auto;
+    max-width: 1024px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
-    overflow: auto;
+    /* align-content: flex-start; */
 }

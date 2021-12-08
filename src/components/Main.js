@@ -335,30 +335,32 @@ class Main extends React.Component {
   render() {
     return (
       <div className="main">
-        <div className="select-box">
-          <div className="selectors">
-            <SelectColor
-              click={this.changeSelectedColor}
-              selected={this.state.selectedColors}
-            />
-            <SelectStripes
-              click={this.changeSelectedStripes}
-              selected={this.state.selectedStripes}
-              clickOtherShipes={this.changeSelectedShipes}
-              clickSymbols={this.changeSelectedSymbols}
-            />
-            <SelectRegion
-              click={this.changeSelectedRegion}
-              selected={this.state.selectedRegion}
-            />
-            <SelectOther
-              clickCountry={this.changeSelectedCountries}
-              clickReset={this.handleReset}
-              selected={this.state.selectedRegion}
-            />
-          </div>
-          <div className="detail-box">
-            <Detail data={this.state.itemOnClick} />
+        <div className="main-select">
+          <div className="select-box">
+            <div className="selectors">
+              <SelectColor
+                click={this.changeSelectedColor}
+                selected={this.state.selectedColors}
+              />
+              <SelectStripes
+                click={this.changeSelectedStripes}
+                selected={this.state.selectedStripes}
+                clickOtherShipes={this.changeSelectedShipes}
+                clickSymbols={this.changeSelectedSymbols}
+              />
+              <SelectRegion
+                click={this.changeSelectedRegion}
+                selected={this.state.selectedRegion}
+              />
+              <SelectOther
+                clickCountry={this.changeSelectedCountries}
+                clickReset={this.handleReset}
+                selected={this.state.selectedRegion}
+              />
+            </div>
+            <div className="detail-box">
+              <Detail data={this.state.itemOnClick} />
+            </div>
           </div>
         </div>
 
