@@ -1977,4 +1977,18 @@
         "country": true
 }
 
+,
+    {
+    "id": 130,
+        "active": true,
+        "name": "Liberia",
+        "colors": ["white", "blue", "red"],
+        "img": "./assets/lr.png",
+        "region": "africa",
+        "verticalStripes": false,
+        "horizontalStripes": true,
+        "otherShipes": false,
+        "symbols": true,
+        "country": true
+}
 ]
