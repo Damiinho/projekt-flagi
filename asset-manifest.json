@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/projekt-flagi/static/css/main.c90ca50a.chunk.css",
-    "main.js": "/projekt-flagi/static/js/main.dc197ec8.chunk.js",
-    "main.js.map": "/projekt-flagi/static/js/main.dc197ec8.chunk.js.map",
+    "main.css": "/projekt-flagi/static/css/main.0cf27439.chunk.css",
+    "main.js": "/projekt-flagi/static/js/main.9e6c0074.chunk.js",
+    "main.js.map": "/projekt-flagi/static/js/main.9e6c0074.chunk.js.map",
     "runtime-main.js": "/projekt-flagi/static/js/runtime-main.a073077d.js",
     "runtime-main.js.map": "/projekt-flagi/static/js/runtime-main.a073077d.js.map",
     "static/js/2.c5d36f5c.chunk.js": "/projekt-flagi/static/js/2.c5d36f5c.chunk.js",
     "static/js/2.c5d36f5c.chunk.js.map": "/projekt-flagi/static/js/2.c5d36f5c.chunk.js.map",
     "index.html": "/projekt-flagi/index.html",
-    "static/css/main.c90ca50a.chunk.css.map": "/projekt-flagi/static/css/main.c90ca50a.chunk.css.map",
+    "static/css/main.0cf27439.chunk.css.map": "/projekt-flagi/static/css/main.0cf27439.chunk.css.map",
     "static/js/2.c5d36f5c.chunk.js.LICENSE.txt": "/projekt-flagi/static/js/2.c5d36f5c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a073077d.js",
     "static/js/2.c5d36f5c.chunk.js",
-    "static/css/main.c90ca50a.chunk.css",
-    "static/js/main.dc197ec8.chunk.js"
+    "static/css/main.0cf27439.chunk.css",
+    "static/js/main.9e6c0074.chunk.js"
   ]
 }
